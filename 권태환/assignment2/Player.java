@@ -1,4 +1,4 @@
-package assignment2;
+package 권태환.assignment2;
 
 import java.util.concurrent.ThreadLocalRandom;
 
