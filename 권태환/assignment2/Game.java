@@ -12,14 +12,17 @@ public class Game {
         while(true) {
             player.attack(monster);
             if(monster.hp <= 0) {
+                System.out.println(monster.name + "(이)가 쓰러졌다.");
                 break;
             }
             monster.attack(monster);
             if(monster.hp <= 0) {
+                System.out.println(monster.name + "(이)가 쓰러졌다.");
                 break;
             }
             monster.attack(player);
             if(player.hp <= 0){
+                System.out.println(player.name + "(이)가 쓰러졌다.");
                 break;
             }
 
