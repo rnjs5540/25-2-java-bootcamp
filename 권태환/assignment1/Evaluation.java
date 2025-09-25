@@ -1,4 +1,4 @@
-package assignment1;
+package 권태환.assignment1;
 
 import java.util.*;
 
